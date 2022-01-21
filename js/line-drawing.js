@@ -132,7 +132,7 @@ function midpointCircle(xc, yc, r) {
       <td>${`P<sub>${pi}</sub> = ${p} ${p < 0 ? "<" : ">"} 0`}</td>
       <td>${x + 1}</td>
       <td>${p < 0 ? y : y - 1}</td>
-      <td>(${x}, ${y})</td>
+      <td>(${x + 1}, ${p < 0 ? y : y - 1})</td>
     `;
 
     if (p < 0) {
