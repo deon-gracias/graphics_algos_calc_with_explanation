@@ -35,7 +35,7 @@ function bresenham(x1, y1, x2, y2) {
   pk = 2 * dy - dx;
 
   result += "<br />";
-  result += `Initial Parameter : P<sub>${pi}</sub> = ${pk} <br>`;
+  result += `Initial Parameter : P<sub>${pi}</sub> = 2dy - dx = 2(${dy}) - ${dy} = ${2 * dy} - ${dx} = ${pk} <br>`;
   result += `Let x = x1 = ${x} and y = y1 = ${y} <br>`;
 
   result += `
