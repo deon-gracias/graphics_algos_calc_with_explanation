@@ -71,7 +71,7 @@ function bresenham(x1, y1, x2, y2) {
         <td>(${x}, ${y})</td>
         <td>P<sub>${pi}</sub> = P<sub>${
         pi - 1
-      }</sub> + 2dy - 2dx</sub> <br> = ${old} + ${2 * dy} = ${pk}</td>
+      }</sub> + 2dy <br> = ${old} + ${2 * dy} = ${pk}</td>
       </tr>
       `;
     } else {
@@ -84,7 +84,7 @@ function bresenham(x1, y1, x2, y2) {
         <td>(${x}, ${y})</td>
         <td>P<sub>${pi}</sub> = P<sub>${
         pi - 1
-      }</sub> + 2dy</sub> <br> = ${old} + ${2 * dy} - ${
+      }</sub> + 2dy - 2dx <br> = ${old} + ${2 * dy} - ${
         2 * dx
       } = ${pk}</td>
       </tr>
